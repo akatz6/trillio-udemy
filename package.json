@@ -1,0 +1,27 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run compile:sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akatz6/Natours-Udemy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akatz6/Natours-Udemy/issues"
+  },
+  "homepage": "https://github.com/akatz6/Natours-Udemy#readme",
+  "devDependencies": {
+    "node-sass": "^4.6.1",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "npm-watch": "^0.3.0"
+  }
+}
